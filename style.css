@@ -1,0 +1,173 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+li
+{
+    list-style: none;
+}
+i
+{
+    padding-right: 5px;
+}
+#o
+{
+    border-bottom: 3px solid orangered;
+}
+header
+{
+    width: 100vw;
+    height: 10vh;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1
+{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav2>ul
+{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer
+{
+   height: 50vh;
+   width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black ;
+
+}
+
+    
+    
+
+.parent{
+    text-align:center;
+    font-size: 40PX;
+    color: #FFF;
+    height: 50vh;
+    border: 4px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.div{
+    background: orANGERED;
+    width: 150px;
+    height: 150px;
+    margin:5px;
+}
+
+
+
+.offerimg
+{
+    height: 40vh;
+    width: 20 vw;
+}
+
+.itemscontainer
+{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#ic1
+{
+     margin-top:  35px; 
+}
+#ic2
+{
+    margin-bottom: 35px ;
+}
+.itemcontainer
+{
+    width: 21vw;
+    height: 53
+    vh;
+    border: 0.5px solid grey;
+}
+
+.itemIMG
+{
+    width: 20vw;
+    height: 27vh;
+}
+
+.itemdescription
+{
+    display: flex;
+    height: 23vh;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+.itemdescription>p:nth-child(3)
+{
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.itemdescription>p>span:nth-child(1)
+{
+    background-color: #2cc91e;
+    padding: 5px 18px;
+    color: white;
+}
+footer
+{
+    background: #000;
+    color:#FFF;
+}
+
+footer
+{
+    background: #000;
+    color: azure;
+    padding: 10px 0px;
+}
+.secTwo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials
+{
+   width: 3vw;
+   height: 4vh;
+}
+
+.socialcontainer
+{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
